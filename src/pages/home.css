@@ -1,0 +1,70 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --darkgold: #74710C;
+    --darkblue: #011944;
+    --blue: #0A1F8F;
+    --beige: #EFEFE1;
+    --beige2: hsla(60, 30%, 91%, 0.2);
+}
+
+.darkmode{
+    --white: #ffffff;
+    --black: #000;
+    --darkgold: #D9D8A3;
+    --darkblue: #b9c4ff;
+    --blue: #5e72e7;
+    --beige: #74710C;
+}
+
+@font-face {
+    font-family: 'prag';
+    src: url(../fonts/PragatiNarrow-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'prag';
+}
+
+
+body{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--white);
+    position: relative;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.s1{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    flex-direction: column;
+    width: 100vw;
+    padding: 105px 0;
+}
+
+.s1info{
+background-color: var(--beige);
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 15px;
+}

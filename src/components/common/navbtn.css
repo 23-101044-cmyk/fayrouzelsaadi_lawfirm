@@ -1,0 +1,17 @@
+h6{
+color: var(--blue);
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+transition: all 0.3s ease;
+}
+
+h6:hover{
+    color: var(--black);
+    font-weight: 800;
+    text-decoration: underline;
+    transform: translateY(-2px);
+}

@@ -3,7 +3,10 @@ import './logo.css'
 
 const Logo = () => {
     return ( 
-        <div className='logo'></div>
+        <div className='logocont'>
+            <div className='logo'></div>
+            <h5 className='name'>HIMA LAW</h5>
+        </div>
      );
 }
  

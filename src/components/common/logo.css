@@ -1,5 +1,25 @@
+.logocont{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
 .logo{
-    width: 347px;
-    height: 70px;
-    background-color: white;
+    background-image: url(../../assets/logo.png);
+    background-size: cover;
+    width: 53px;
+height: 70px;
+}
+
+.name{
+    color: var(--darkblue);
+font-family: 'bebas';
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 48px */
+letter-spacing: 0.96px;
+text-transform: uppercase;
 }

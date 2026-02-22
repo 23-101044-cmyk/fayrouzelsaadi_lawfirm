@@ -58,13 +58,47 @@ main{
     gap: 42px;
     flex-direction: column;
     width: 100vw;
-    padding: 105px 0;
+    padding-bottom: 105px;
 }
 
 .s1info{
-background-color: var(--beige);
 display: flex;
-align-items: center;
+align-items: flex-start;
 flex-direction: row;
-gap: 15px;
+justify-content: space-between;
+margin-top: -70px;
+position: relative;
+width: 75vw;
+z-index: 3;
+}
+
+.s2{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--beige);
+    padding: 92px 0;
+    background-image: url(../assets/pillars.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.s2info{
+    width: 80vw;
+    display: flex;
+align-items: flex-start;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+
+p{
+    color: var(--blue);
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 136.364% */
 }

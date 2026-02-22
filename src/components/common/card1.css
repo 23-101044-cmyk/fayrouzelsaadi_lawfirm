@@ -1,0 +1,38 @@
+.card1{
+    width: 32%;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--darkgold);
+    background: var(--white);
+
+    transition: all 0.3s ease;
+}
+
+.card1:hover{
+    transform: translateY(-10px);
+        box-shadow: 6px 10px 62.1px 0 rgba(0, 0, 0, 0.18);
+}
+
+.cardicon{
+    width: 60px;
+    height: 71px;
+}
+
+.cardtitle{
+    color: var(--darkgold);
+font-family: 'bebas';
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 87.5% */
+}
+
+.cardp{
+    color: var(--darkgold);
+    width: 90%;
+}
+

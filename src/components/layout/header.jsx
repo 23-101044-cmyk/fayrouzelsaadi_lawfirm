@@ -8,7 +8,7 @@ const Header = () => {
             <article className='herogradient'>
             <article className='heroinfo'>
                 <h2 className='herotitle'>A Law Firm You can Trust</h2>
-                <p>Dedicated and efficient business and litigation practice.
+                <p className='herop'>Dedicated and efficient business and litigation practice.
 Experienced and Skillful labor and employment representation.</p>
                 <Btn 
                 btn="Contact us"
